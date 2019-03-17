@@ -1,0 +1,11 @@
+{
+    "port" : ":9080",
+    "softVersion":"2019-03-16",
+    "baseUrl":"https://api.ucpaas.com",
+    "appId":"2d9647403ce34c7bb5bcdb9a71224b66",
+    "accountSId":"00f5ab9e0ed120088aed60d4a7f52b46",
+    "token":"9927e1b2ddefde547de62f291968486f",
+    "server":[
+    ],
+    "runmode" : "dev"
+}
