@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"github.com/chenhg5/go-admin/plugins/admin/controller"
 	"github.com/chenhg5/go-admin/plugins/admin/modules/file"
-)
+	)
 
 // 显示编辑
 func ShowEditTourRoute(ctx *context.Context) {
@@ -19,7 +19,6 @@ func ShowEditTourRoute(ctx *context.Context) {
 
 	formData, title, description := models.TableList[prefix].
 		GetDataFromDatabaseWithId("3rdsrc", ctx.Query("id"))
-
 	params := models.GetParam(ctx.Request.URL.Query())
 
 	user := auth.Auth(ctx)

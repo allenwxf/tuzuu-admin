@@ -10,23 +10,20 @@ import (
 	"github.com/chenhg5/go-admin/template/types"
 	"net/http"
 	"github.com/chenhg5/go-admin/context"
-	"fmt"
-)
+	)
 
 func ShowGetTourRoute(ctx *context.Context) {
+	prefix := "tour-route"
+	params := models.GetParam(ctx.Request.URL.Query())
+
 	user := auth.Auth(ctx)
 	menu.GlobalMenu.SetActiveClass(
 		strings.Replace(ctx.Path(), controller.Config.PREFIX, "", 1))
 
-	newUrl := controller.Config.PREFIX + "/ext/show/tour-route/new"
-	editUrl := controller.Config.PREFIX + "/ext/show/tour-route/edit"
-	deleteUrl := controller.Config.PREFIX + "/ext/delete/tour-route"
+	newUrl := controller.Config.PREFIX + "/ext/show/tour-route/new" + params.GetRouteParamStr()
+	editUrl := controller.Config.PREFIX + "/ext/show/tour-route/edit" + params.GetRouteParamStr()
+	deleteUrl := controller.Config.PREFIX + "/ext/delete/tour-route" + params.GetRouteParamStr()
 	//orderUrl := controller.Config.PREFIX + "/tour-route/order"
-
-	prefix := "tour-route"
-	params := models.GetParam(ctx.Request.URL.Query())
-
-	fmt.Println(ctx.Path(), params)
 
 	panelInfo := models.TableList[prefix].GetDataFromDatabase("3rdsrc", ctx.Path(), params)
 

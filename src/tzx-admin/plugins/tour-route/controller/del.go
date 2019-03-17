@@ -8,7 +8,9 @@ import (
 )
 
 func DelTourRoute(ctx *context.Context) {
-	models.TableList[ctx.Query("prefix")].
+	prefix := "tour-route"
+
+	models.TableList[prefix].
 		DeleteDataFromDatabase("3rdsrc", ctx.FormValue("id"))
 
 	newToken := auth.TokenHelper.AddToken()
