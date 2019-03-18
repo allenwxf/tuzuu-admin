@@ -2,27 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7c77848-7ec0-4496-b8ce-a1625f8ef9e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/admincli/cli.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/admincli/cli.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/modules/auth/auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/modules/auth/auth.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/modules/auth/middleware.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/modules/auth/middleware.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/modules/auth/session.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/modules/auth/session.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/modules/db/connection.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/modules/db/connection.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/modules/db/mysql/mysql.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/modules/db/mysql/mysql.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/modules/db/performer/performer.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/modules/db/performer/performer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/modules/db/statement.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/modules/db/statement.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/modules/menu/menu.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/modules/menu/menu.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/admin.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/admin.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/controller/auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/controller/auth.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/controller/delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/controller/delete.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/controller/edit.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/controller/edit.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/controller/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/controller/handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/controller/manager.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/controller/manager.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/controller/menu.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/controller/menu.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/controller/new.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/controller/new.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/controller/operation.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/controller/operation.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/controller/show.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/controller/show.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/models/generators.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/models/generators.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/models/table.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/models/table.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/github.com/astaxie/beego/orm.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/github.com/gin-contrib/cors.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/github.com/go-sql-driver/mysql.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/github.com/lib/pq.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/github.com/mattn/go-sqlite3.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/github.com/mgutz/ansi.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/github.com/nsqio/go-nsq.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cloud.google.com/go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/astaxie/beego" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/denisenkom/go-mssqldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/gin-gonic/gin" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/gin-gonic/gin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/golang/snappy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/lib/pq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mattn/go-sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/nsqio/go-nsq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/ugorji/go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/ugorji/go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/golang.org/x/sys" beforeDir="false" afterPath="$PROJECT_DIR$/src/golang.org/x/sys" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tzx-admin/gateway/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/tzx-admin/gateway/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tzx-admin/gateway/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/tzx-admin/gateway/main.exe" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,66 +30,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1647261099">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="Makefile" value="1" />
-          <entry key="go" value="275" />
-          <entry key="json" value="6" />
-          <entry key="log" value="2" />
-          <entry key="md" value="1" />
-          <entry key="sql" value="2" />
-          <entry key="tmpl" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Go" value="275" />
-          <entry key="JSON" value="6" />
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="SQL" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="go" value="2987" />
-          <entry key="json" value="9" />
-          <entry key="md" value="22" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Go" value="2987" />
-          <entry key="JSON" value="9" />
-          <entry key="PLAIN_TEXT" value="22" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.go.postfix.template.usages.trigger">
-        <counts>
-          <entry key=".print" value="1" />
-          <entry key=".println" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tzx-admin/plugins/tour-route/tour-route.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
+            <state relative-caret-position="720">
               <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
               <folding>
                 <element signature="e#20#314#0" expanded="true" />
@@ -101,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tzx-admin/plugins/tour-route/router.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
+            <state relative-caret-position="360">
               <caret line="20" column="92" selection-start-line="20" selection-start-column="92" selection-end-line="20" selection-end-column="92" />
               <folding>
                 <element signature="e#20#225#0" expanded="true" />
@@ -110,14 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tzx-admin/plugins/tour-route/controller/edit.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
-              <folding>
-                <element signature="e#20#432#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="264">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -125,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tzx-admin/plugins/tour-route/controller/new.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            <state relative-caret-position="864">
+              <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
               <folding>
                 <element signature="e#20#433#0" expanded="true" />
               </folding>
@@ -137,8 +80,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tzx-admin/plugins/tour-route/controller/list.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="22" selection-start-line="22" selection-end-line="25" selection-end-column="64" />
+            <state relative-caret-position="336">
+              <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tzx-admin/plugins/tour-route/models/route.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#16#124#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -206,7 +160,7 @@
       <dir>E:\workspace\tuzuu-admin</dir>
     </dirStrings>
   </component>
-  <component name="GOROOT" path="E:\Program Files\go 1.11.5" />
+  <component name="GOROOT" path="D:/Program Files/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -271,14 +225,9 @@
         <option value="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/modules/db/performer/performer.go" />
         <option value="$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/models/table.go" />
         <option value="$PROJECT_DIR$/src/tzx-admin/plugins/tour-route/controller/new.go" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="731" />
@@ -292,7 +241,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,102 +251,7 @@
             <path>
               <item name="tuzuu-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="tuzuu-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tuzuu-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tuzuu-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tuzuu-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tuzuu-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tuzuu-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tuzuu-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="chenhg5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tuzuu-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tuzuu-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="chenhg5" type="462c0819:PsiDirectoryNode" />
-              <item name="go-admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tuzuu-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tuzuu-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="chenhg5" type="462c0819:PsiDirectoryNode" />
-              <item name="go-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tuzuu-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tuzuu-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="chenhg5" type="462c0819:PsiDirectoryNode" />
-              <item name="go-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tuzuu-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tuzuu-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="chenhg5" type="462c0819:PsiDirectoryNode" />
-              <item name="go-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tuzuu-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tuzuu-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="chenhg5" type="462c0819:PsiDirectoryNode" />
-              <item name="go-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tuzuu-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tuzuu-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="chenhg5" type="462c0819:PsiDirectoryNode" />
-              <item name="go-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tuzuu-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tuzuu-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="chenhg5" type="462c0819:PsiDirectoryNode" />
-              <item name="go-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tuzuu-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tuzuu-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="chenhg5" type="462c0819:PsiDirectoryNode" />
-              <item name="go-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tuzuu-admin" type="b2602c69:ProjectViewProjectNode" />
@@ -450,11 +303,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SearchEverywhereHistoryKey" value="InitDB&#9;null&#9;null&#10;SetInfoUrl&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
@@ -464,7 +319,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -494,13 +349,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17324094" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17324094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -508,7 +363,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
-      <window_info anchor="bottom" x="0" y="23" width="1920" height="1017" id="Terminal" order="9" weight="0.50705755" />
+      <window_info active="true" anchor="bottom" x="0" y="23" width="1920" height="1017" id="Terminal" order="9" visible="true" weight="0.17075893" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32969216" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -539,20 +394,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/models/generators.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-          <folding>
-            <element signature="e#16#270#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/controller/operation.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -646,20 +488,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/Program Files/go 1.11.5/src/database/sql/sql.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="2193" column="14" selection-start-line="2193" selection-start-column="14" selection-end-line="2193" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Program Files/go 1.11.5/src/net/http/request.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="252" column="4" selection-start-line="252" selection-start-column="4" selection-end-line="252" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/Program Files/go 1.11.5/src/database/sql/sql.go" />
+    <entry file="file://E:/Program Files/go 1.11.5/src/net/http/request.go" />
     <entry file="file://$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/modules/file/file.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -688,20 +518,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/Program Files/go 1.11.5/src/html/template/template.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="131" column="19" selection-start-line="131" selection-start-column="19" selection-end-line="131" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Program Files/go 1.11.5/src/html/template/content.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/Program Files/go 1.11.5/src/html/template/template.go" />
+    <entry file="file://E:/Program Files/go 1.11.5/src/html/template/content.go" />
     <entry file="file://$PROJECT_DIR$/src/github.com/chenhg5/go-admin/template/adminlte/resource/pages/components/form/default.tmpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -737,13 +555,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/gin-gonic/gin/context.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/gin-gonic/gin/context.go" />
     <entry file="file://$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/plugins.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -783,23 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tzx-admin/gateway/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tzx-admin/plugins/tour-route/models/route.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="276" column="32" lean-forward="true" selection-start-line="276" selection-start-column="32" selection-end-line="276" selection-end-column="32" />
-          <folding>
-            <element signature="e#16#124#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -855,16 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tzx-admin/plugins/tour-route/router.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="92" selection-start-line="20" selection-start-column="92" selection-end-line="20" selection-end-column="92" />
-          <folding>
-            <element signature="e#20#225#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/router.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
@@ -875,23 +660,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tzx-admin/plugins/tour-route/tour-route.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
-          <folding>
-            <element signature="e#20#314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Program Files/go 1.11.5/src/mime/multipart/formdata.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
-          <caret line="117" column="4" selection-start-line="117" selection-start-column="4" selection-end-line="117" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/Program Files/go 1.11.5/src/mime/multipart/formdata.go" />
     <entry file="file://$PROJECT_DIR$/src/github.com/chenhg5/go-admin/plugins/admin/models/table.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -899,29 +668,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tzx-admin/plugins/tour-route/controller/list.go">
+    <entry file="file://$PROJECT_DIR$/src/tzx-admin/plugins/tour-route/tour-route.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="22" selection-start-line="22" selection-end-line="25" selection-end-column="64" />
+        <state relative-caret-position="720">
+          <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+          <folding>
+            <element signature="e#20#314#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tzx-admin/plugins/tour-route/controller/new.go">
+    <entry file="file://$PROJECT_DIR$/src/tzx-admin/plugins/tour-route/router.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        <state relative-caret-position="360">
+          <caret line="20" column="92" selection-start-line="20" selection-start-column="92" selection-end-line="20" selection-end-column="92" />
           <folding>
-            <element signature="e#20#433#0" expanded="true" />
+            <element signature="e#20#225#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tzx-admin/plugins/tour-route/controller/edit.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="264">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tzx-admin/plugins/tour-route/controller/new.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
           <folding>
-            <element signature="e#20#432#0" expanded="true" />
+            <element signature="e#20#433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="336">
+            <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tzx-admin/plugins/tour-route/controller/list.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tzx-admin/gateway/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="50" column="38" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tzx-admin/plugins/tour-route/models/route.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#16#124#0" expanded="true" />
           </folding>
         </state>
       </provider>
