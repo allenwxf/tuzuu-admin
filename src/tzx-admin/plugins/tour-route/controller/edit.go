@@ -15,7 +15,8 @@ import (
 
 // 显示编辑
 func ShowEditTourRoute(ctx *context.Context) {
-	prefix := "tour-route"
+	//prefix := "tour-route"
+	prefix := ctx.Query("prefix")
 
 	formData, title, description := models.TableList[prefix].
 		GetDataFromDatabaseWithId("3rdsrc", ctx.Query("id"))
@@ -57,7 +58,8 @@ func EditTourRoute(ctx *context.Context) {
 		return
 	}
 
-	prefix := "tour-route"
+	//prefix := "tour-route"
+	prefix := ctx.Query("prefix")
 
 	form := ctx.Request.MultipartForm
 

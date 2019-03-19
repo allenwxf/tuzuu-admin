@@ -1,9 +1,9 @@
 package models
 
 import (
-	"github.com/chenhg5/go-admin/modules/language"
 	"github.com/chenhg5/go-admin/template/types"
 	"github.com/chenhg5/go-admin/plugins/admin/models"
+	"github.com/chenhg5/go-admin/modules/language"
 )
 
 func GetRouteTable() (routeTable models.Table) {
