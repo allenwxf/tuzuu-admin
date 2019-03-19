@@ -59,4 +59,7 @@ var cn = map[string]string{
 	"roles":     "角色",
 	"menu":      "菜单",
 	"dashboard": "仪表盘",
+
+	"route-city": "城市",
+	"route-name": "名字",
 }
