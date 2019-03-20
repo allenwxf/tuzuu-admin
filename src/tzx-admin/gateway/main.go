@@ -32,6 +32,11 @@ func main() {
 	r := gin.Default()
 	eng := engine.Default()
 	cfg := config.Config{
+		TITLE: "TZX-ADMIN",
+		LOGO: "<b>TZX</b>Admin",
+		MINILOGO: "<b>T</b>A",
+		THEME: "adminlte",
+		INDEX: "/ext/show/tour-route",
 		DATABASE: []config.Database{
 			{
 				HOST:         "127.0.0.1",
@@ -65,9 +70,9 @@ func main() {
 		// debug mode
 		DEBUG: true,
 		// log file absolute path
-		INFOLOG: "info.log",
-		ACCESSLOG: "access.log",
-		ERRORLOG: "error.log",
+		INFOLOG: "log/info.log",
+		ACCESSLOG: "log/access.log",
+		ERRORLOG: "log/error.log",
 	}
 
 	adminPlugin := admin.NewAdmin(datamodel.Generators)

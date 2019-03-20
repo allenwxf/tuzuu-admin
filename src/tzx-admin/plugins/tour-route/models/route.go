@@ -3,6 +3,7 @@ package models
 import (
 	"github.com/chenhg5/go-admin/template/types"
 	"github.com/chenhg5/go-admin/plugins/admin/models"
+	"github.com/chenhg5/go-admin/modules/language"
 )
 
 func GetRouteTable() (routeTable models.Table) {
@@ -16,7 +17,7 @@ func GetRouteTable() (routeTable models.Table) {
 				return model.Value
 			},
 		},{
-			Head:     "City",
+			Head:     language.Get("route-City"),
 			Field:    "City",
 			TypeName: "varchar",
 			Sortable: false,
@@ -24,7 +25,7 @@ func GetRouteTable() (routeTable models.Table) {
 				return model.Value
 			},
 		},{
-			Head:     "Name",
+			Head:     language.Get("route-Name"),
 			Field:    "Name",
 			TypeName: "char",
 			Sortable: false,

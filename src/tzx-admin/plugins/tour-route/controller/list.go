@@ -13,16 +13,17 @@ import (
 	)
 
 func ShowGetTourRoute(ctx *context.Context) {
-	prefix := "tour-route"
+	//prefix := "tour-route"
+	prefix := ctx.Query("prefix")
 	params := models.GetParam(ctx.Request.URL.Query())
 
 	user := auth.Auth(ctx)
 	menu.GlobalMenu.SetActiveClass(
 		strings.Replace(ctx.Path(), controller.Config.PREFIX, "", 1))
 
-	newUrl := controller.Config.PREFIX + "/ext/show/tour-route/new" + params.GetRouteParamStr()
-	editUrl := controller.Config.PREFIX + "/ext/show/tour-route/edit" + params.GetRouteParamStr()
-	deleteUrl := controller.Config.PREFIX + "/ext/delete/tour-route" + params.GetRouteParamStr()
+	newUrl := controller.Config.PREFIX + "/ext/show/" + prefix + "/new" + params.GetRouteParamStr()
+	editUrl := controller.Config.PREFIX + "/ext/show/" + prefix + "/edit" + params.GetRouteParamStr()
+	deleteUrl := controller.Config.PREFIX + "/ext/delete/" + prefix + params.GetRouteParamStr()
 	//orderUrl := controller.Config.PREFIX + "/tour-route/order"
 
 	panelInfo := models.TableList[prefix].GetDataFromDatabase("3rdsrc", ctx.Path(), params)

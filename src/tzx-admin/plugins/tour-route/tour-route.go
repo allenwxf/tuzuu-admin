@@ -35,7 +35,10 @@ func (tourRoute *TourRoute) InitPlugin() {
 	App.app = InitRouter("/" + cfg.PREFIX)
 
 	models.SetGenerators(map[string]models.TableGenerator{
-		"tour-route":    routeModel.GetRouteTable,
+		"tour-route": routeModel.GetRouteTable,
+		"poi": routeModel.GetPoiTable,
+		"routepoi": routeModel.GetRoutepoiTable,
+		"task": routeModel.GetTaskTable,
 	})
 	models.InitTableList()
 

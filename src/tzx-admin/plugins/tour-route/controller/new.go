@@ -15,7 +15,8 @@ import (
 
 // 显示新建
 func ShowNewTourRoute(ctx *context.Context) {
-	prefix := "tour-route"
+	//prefix := "tour-route"
+	prefix := ctx.Query("prefix")
 	params := models.GetParam(ctx.Request.URL.Query())
 
 	user := auth.Auth(ctx)
@@ -55,7 +56,8 @@ func NewTourRoute(ctx *context.Context) {
 		return
 	}
 
-	prefix := "tour-route"
+	//prefix := "tour-route"
+	prefix := ctx.Query("prefix")
 
 	form := ctx.Request.MultipartForm
 

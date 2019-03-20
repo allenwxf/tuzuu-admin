@@ -55,4 +55,7 @@ var en = map[string]string{
 	"roles":     "Roles",
 	"menu":      "Menu",
 	"dashboard": "Dashboard",
+
+	"route-city": "城市",
+	"route-name": "名字",
 }

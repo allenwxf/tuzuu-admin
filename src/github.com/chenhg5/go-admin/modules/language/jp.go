@@ -23,4 +23,7 @@ var jp = map[string]string{
 	"save":            "セーブ",
 	"edit":            "編集",
 	"operation":       "操作",
+
+	"route-city": "城市",
+	"route-name": "名字",
 }
