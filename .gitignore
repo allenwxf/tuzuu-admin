@@ -3,3 +3,8 @@
 .idea/vcs.xml
 .idea/workspace.xml
 src/.DS_Store
+/.idea
+/src/tzx-admin/gateway/log/access.log
+/src/tzx-admin/gateway/log/error.log
+/src/tzx-admin/gateway/log/info.log
+/src/tzx-admin/gateway/main.exe

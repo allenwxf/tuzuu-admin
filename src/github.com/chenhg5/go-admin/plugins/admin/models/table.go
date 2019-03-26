@@ -82,7 +82,7 @@ func (tb Table) GetDataFromDatabase(con string, path string, params *Parameters)
 	thead := make([]map[string]string, 0)
 	fields := ""
 
-	// TODO: use sql dialect to support different database
+	// TODO: use sql dialect to support different databaseGetTemplate
 
 	showColumns := "show columns in " + tb.Info.Table
 	if tb.ConnectionDriver == "sqlite" {
@@ -255,7 +255,7 @@ func (tb Table) UpdateDataFromDatabase(con string, dataList map[string][]string)
 			}
 		}
 	}
-	fmt.Println(dataList)
+	fmt.Println("===================", dataList)		// todo... fix the bug!!!
 	fields = fields[0 : len(fields)-1]
 	valueList = append(valueList, dataList["id"][0])
 
