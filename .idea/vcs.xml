@@ -2,7 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/$GOPATH/src/golang.org/x/net" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/cloud.google.com" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/cloud.google.com/go" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/NebulousLabs/fastrand" vcs="Git" />
