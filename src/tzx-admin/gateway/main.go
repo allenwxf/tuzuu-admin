@@ -36,7 +36,7 @@ func main() {
 		LOGO: "<b>TZX</b>Admin",
 		MINILOGO: "<b>T</b>A",
 		THEME: "adminlte",
-		INDEX: "/ext/show/tour-route",
+		INDEX: "/ext/show/home_page",
 		DATABASE: []config.Database{
 			{
 				HOST:         "127.0.0.1",
@@ -53,7 +53,7 @@ func main() {
 				PORT:         "3306",
 				USER:         "root",
 				PWD:          "",
-				NAME:         "tzx_tmp",
+				NAME:         "tzx_route",
 				MAX_IDLE_CON: 50,
 				MAX_OPEN_CON: 150,
 				DRIVER:       "mysql",

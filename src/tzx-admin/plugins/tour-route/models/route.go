@@ -1,137 +1,137 @@
 package models
 
 import (
+	"github.com/chenhg5/go-admin/modules/language"
 	"github.com/chenhg5/go-admin/template/types"
 	"github.com/chenhg5/go-admin/plugins/admin/models"
-	"github.com/chenhg5/go-admin/modules/language"
 )
 
 func GetRouteTable() (routeTable models.Table) {
 
 	routeTable.Info.FieldList = []types.Field{{
-			Head:     "Id",
-			Field:    "Id",
+			Head:     language.Get("route-id"),
+			Field:    "id",
 			TypeName: "int",
 			Sortable: false,
 			ExcuFun: func(model types.RowModel) interface{} {
 				return model.Value
 			},
 		},{
-			Head:     language.Get("route-City"),
-			Field:    "City",
+			Head:     language.Get("route-city"),
+			Field:    "city",
 			TypeName: "varchar",
 			Sortable: false,
 			ExcuFun: func(model types.RowModel) interface{} {
 				return model.Value
 			},
 		},{
-			Head:     language.Get("route-Name"),
-			Field:    "Name",
-			TypeName: "char",
-			Sortable: false,
-			ExcuFun: func(model types.RowModel) interface{} {
-				return model.Value
-			},
-		},{
-			Head:     "Video",
-			Field:    "Video",
-			TypeName: "char",
-			Sortable: false,
-			ExcuFun: func(model types.RowModel) interface{} {
-				return model.Value
-			},
-		},{
-			Head:     "Imgs",
-			Field:    "Imgs",
-			TypeName: "char",
-			Sortable: false,
-			ExcuFun: func(model types.RowModel) interface{} {
-				return model.Value
-			},
-		},{
-			Head:     "Price",
-			Field:    "Price",
-			TypeName: "int",
-			Sortable: false,
-			ExcuFun: func(model types.RowModel) interface{} {
-				return model.Value
-			},
-		},{
-			Head:     "GuideId",
-			Field:    "GuideId",
-			TypeName: "int",
-			Sortable: false,
-			ExcuFun: func(model types.RowModel) interface{} {
-				return model.Value
-			},
-		},{
-			Head:     "ChangeTime",
-			Field:    "ChangeTime",
-			TypeName: "int",
-			Sortable: false,
-			ExcuFun: func(model types.RowModel) interface{} {
-				return model.Value
-			},
-		},{
-			Head:     "Time",
-			Field:    "Time",
-			TypeName: "int",
-			Sortable: false,
-			ExcuFun: func(model types.RowModel) interface{} {
-				return model.Value
-			},
-		},{
-			Head:     "ImgArr",
-			Field:    "ImgArr",
+			Head:     language.Get("route-name"),
+			Field:    "name",
 			TypeName: "varchar",
 			Sortable: false,
 			ExcuFun: func(model types.RowModel) interface{} {
 				return model.Value
 			},
 		},{
-			Head:     "Label",
-			Field:    "Label",
-			TypeName: "varchar",
+			Head:     language.Get("route-video"),
+			Field:    "video",
+			TypeName: "text",
 			Sortable: false,
 			ExcuFun: func(model types.RowModel) interface{} {
 				return model.Value
 			},
 		},{
-			Head:     "ImgArr2",
-			Field:    "ImgArr2",
-			TypeName: "varchar",
+			Head:     language.Get("route-imgs"),
+			Field:    "imgs",
+			TypeName: "text",
 			Sortable: false,
 			ExcuFun: func(model types.RowModel) interface{} {
 				return model.Value
 			},
 		},{
-			Head:     "ImgArr3",
-			Field:    "ImgArr3",
-			TypeName: "varchar",
-			Sortable: false,
-			ExcuFun: func(model types.RowModel) interface{} {
-				return model.Value
-			},
-		},{
-			Head:     "ImgArr4",
-			Field:    "ImgArr4",
-			TypeName: "varchar",
-			Sortable: false,
-			ExcuFun: func(model types.RowModel) interface{} {
-				return model.Value
-			},
-		},{
-			Head:     "ViewCount",
-			Field:    "ViewCount",
+			Head:     language.Get("route-price"),
+			Field:    "price",
 			TypeName: "int",
 			Sortable: false,
 			ExcuFun: func(model types.RowModel) interface{} {
 				return model.Value
 			},
 		},{
-			Head:     "SaleCount",
-			Field:    "SaleCount",
+			Head:     language.Get("route-guide_id"),
+			Field:    "guide_id",
 			TypeName: "int",
+			Sortable: false,
+			ExcuFun: func(model types.RowModel) interface{} {
+				return model.Value
+			},
+		},{
+			Head:     language.Get("route-change_time"),
+			Field:    "change_time",
+			TypeName: "bigint",
+			Sortable: false,
+			ExcuFun: func(model types.RowModel) interface{} {
+				return model.Value
+			},
+		},{
+			Head:     language.Get("route-time"),
+			Field:    "time",
+			TypeName: "bigint",
+			Sortable: false,
+			ExcuFun: func(model types.RowModel) interface{} {
+				return model.Value
+			},
+		},{
+			Head:     language.Get("route-img_arr"),
+			Field:    "img_arr",
+			TypeName: "text",
+			Sortable: false,
+			ExcuFun: func(model types.RowModel) interface{} {
+				return model.Value
+			},
+		},{
+			Head:     language.Get("route-label"),
+			Field:    "label",
+			TypeName: "varchar",
+			Sortable: false,
+			ExcuFun: func(model types.RowModel) interface{} {
+				return model.Value
+			},
+		},{
+			Head:     language.Get("route-img_arr2"),
+			Field:    "img_arr2",
+			TypeName: "text",
+			Sortable: false,
+			ExcuFun: func(model types.RowModel) interface{} {
+				return model.Value
+			},
+		},{
+			Head:     language.Get("route-img_arr3"),
+			Field:    "img_arr3",
+			TypeName: "text",
+			Sortable: false,
+			ExcuFun: func(model types.RowModel) interface{} {
+				return model.Value
+			},
+		},{
+			Head:     language.Get("route-img_arr4"),
+			Field:    "img_arr4",
+			TypeName: "text",
+			Sortable: false,
+			ExcuFun: func(model types.RowModel) interface{} {
+				return model.Value
+			},
+		},{
+			Head:     language.Get("route-view_count"),
+			Field:    "view_count",
+			TypeName: "bigint",
+			Sortable: false,
+			ExcuFun: func(model types.RowModel) interface{} {
+				return model.Value
+			},
+		},{
+			Head:     language.Get("route-sale_count"),
+			Field:    "sale_count",
+			TypeName: "bigint",
 			Sortable: false,
 			ExcuFun: func(model types.RowModel) interface{} {
 				return model.Value
@@ -139,22 +139,22 @@ func GetRouteTable() (routeTable models.Table) {
 		},}
 
 	routeTable.Info.Table = "route"
-	routeTable.Info.Title = "Route"
+	routeTable.Info.Title = language.Get("info-route")
 	routeTable.Info.Description = "Route"
 
 	routeTable.Form.FormList = []types.Form{{
-			Head:     "Id",
-			Field:    "Id",
+			Head:     language.Get("route-id"),
+			Field:    "id",
 			TypeName: "int",
 			Default:  "",
 			Editable: false,
-			FormType: "text",
+			FormType: "default",
 			ExcuFun: func(model types.RowModel) interface{} {
 				return model.Value
 			},
 		},{
-			Head:     "City",
-			Field:    "City",
+			Head:     language.Get("route-city"),
+			Field:    "city",
 			TypeName: "varchar",
 			Default:  "",
 			Editable: false,
@@ -163,78 +163,8 @@ func GetRouteTable() (routeTable models.Table) {
 				return model.Value
 			},
 		},{
-			Head:     "Name",
-			Field:    "Name",
-			TypeName: "char",
-			Default:  "",
-			Editable: false,
-			FormType: "text",
-			ExcuFun: func(model types.RowModel) interface{} {
-				return model.Value
-			},
-		},{
-			Head:     "Video",
-			Field:    "Video",
-			TypeName: "char",
-			Default:  "",
-			Editable: false,
-			FormType: "text",
-			ExcuFun: func(model types.RowModel) interface{} {
-				return model.Value
-			},
-		},{
-			Head:     "Imgs",
-			Field:    "Imgs",
-			TypeName: "char",
-			Default:  "",
-			Editable: false,
-			FormType: "text",
-			ExcuFun: func(model types.RowModel) interface{} {
-				return model.Value
-			},
-		},{
-			Head:     "Price",
-			Field:    "Price",
-			TypeName: "int",
-			Default:  "",
-			Editable: false,
-			FormType: "text",
-			ExcuFun: func(model types.RowModel) interface{} {
-				return model.Value
-			},
-		},{
-			Head:     "GuideId",
-			Field:    "GuideId",
-			TypeName: "int",
-			Default:  "",
-			Editable: false,
-			FormType: "text",
-			ExcuFun: func(model types.RowModel) interface{} {
-				return model.Value
-			},
-		},{
-			Head:     "ChangeTime",
-			Field:    "ChangeTime",
-			TypeName: "int",
-			Default:  "",
-			Editable: false,
-			FormType: "text",
-			ExcuFun: func(model types.RowModel) interface{} {
-				return model.Value
-			},
-		},{
-			Head:     "Time",
-			Field:    "Time",
-			TypeName: "int",
-			Default:  "",
-			Editable: false,
-			FormType: "text",
-			ExcuFun: func(model types.RowModel) interface{} {
-				return model.Value
-			},
-		},{
-			Head:     "ImgArr",
-			Field:    "ImgArr",
+			Head:     language.Get("route-name"),
+			Field:    "name",
 			TypeName: "varchar",
 			Default:  "",
 			Editable: false,
@@ -243,9 +173,9 @@ func GetRouteTable() (routeTable models.Table) {
 				return model.Value
 			},
 		},{
-			Head:     "Label",
-			Field:    "Label",
-			TypeName: "varchar",
+			Head:     language.Get("route-video"),
+			Field:    "video",
+			TypeName: "text",
 			Default:  "",
 			Editable: false,
 			FormType: "text",
@@ -253,9 +183,9 @@ func GetRouteTable() (routeTable models.Table) {
 				return model.Value
 			},
 		},{
-			Head:     "ImgArr2",
-			Field:    "ImgArr2",
-			TypeName: "varchar",
+			Head:     language.Get("route-imgs"),
+			Field:    "imgs",
+			TypeName: "text",
 			Default:  "",
 			Editable: false,
 			FormType: "text",
@@ -263,28 +193,8 @@ func GetRouteTable() (routeTable models.Table) {
 				return model.Value
 			},
 		},{
-			Head:     "ImgArr3",
-			Field:    "ImgArr3",
-			TypeName: "varchar",
-			Default:  "",
-			Editable: false,
-			FormType: "text",
-			ExcuFun: func(model types.RowModel) interface{} {
-				return model.Value
-			},
-		},{
-			Head:     "ImgArr4",
-			Field:    "ImgArr4",
-			TypeName: "varchar",
-			Default:  "",
-			Editable: false,
-			FormType: "text",
-			ExcuFun: func(model types.RowModel) interface{} {
-				return model.Value
-			},
-		},{
-			Head:     "ViewCount",
-			Field:    "ViewCount",
+			Head:     language.Get("route-price"),
+			Field:    "price",
 			TypeName: "int",
 			Default:  "",
 			Editable: false,
@@ -293,9 +203,99 @@ func GetRouteTable() (routeTable models.Table) {
 				return model.Value
 			},
 		},{
-			Head:     "SaleCount",
-			Field:    "SaleCount",
+			Head:     language.Get("route-guide_id"),
+			Field:    "guide_id",
 			TypeName: "int",
+			Default:  "",
+			Editable: false,
+			FormType: "text",
+			ExcuFun: func(model types.RowModel) interface{} {
+				return model.Value
+			},
+		},{
+			Head:     language.Get("route-change_time"),
+			Field:    "change_time",
+			TypeName: "bigint",
+			Default:  "",
+			Editable: false,
+			FormType: "text",
+			ExcuFun: func(model types.RowModel) interface{} {
+				return model.Value
+			},
+		},{
+			Head:     language.Get("route-time"),
+			Field:    "time",
+			TypeName: "bigint",
+			Default:  "",
+			Editable: false,
+			FormType: "text",
+			ExcuFun: func(model types.RowModel) interface{} {
+				return model.Value
+			},
+		},{
+			Head:     language.Get("route-img_arr"),
+			Field:    "img_arr",
+			TypeName: "text",
+			Default:  "",
+			Editable: false,
+			FormType: "text",
+			ExcuFun: func(model types.RowModel) interface{} {
+				return model.Value
+			},
+		},{
+			Head:     language.Get("route-label"),
+			Field:    "label",
+			TypeName: "varchar",
+			Default:  "",
+			Editable: false,
+			FormType: "text",
+			ExcuFun: func(model types.RowModel) interface{} {
+				return model.Value
+			},
+		},{
+			Head:     language.Get("route-img_arr2"),
+			Field:    "img_arr2",
+			TypeName: "text",
+			Default:  "",
+			Editable: false,
+			FormType: "text",
+			ExcuFun: func(model types.RowModel) interface{} {
+				return model.Value
+			},
+		},{
+			Head:     language.Get("route-img_arr3"),
+			Field:    "img_arr3",
+			TypeName: "text",
+			Default:  "",
+			Editable: false,
+			FormType: "text",
+			ExcuFun: func(model types.RowModel) interface{} {
+				return model.Value
+			},
+		},{
+			Head:     language.Get("route-img_arr4"),
+			Field:    "img_arr4",
+			TypeName: "text",
+			Default:  "",
+			Editable: false,
+			FormType: "text",
+			ExcuFun: func(model types.RowModel) interface{} {
+				return model.Value
+			},
+		},{
+			Head:     language.Get("route-view_count"),
+			Field:    "view_count",
+			TypeName: "bigint",
+			Default:  "",
+			Editable: false,
+			FormType: "text",
+			ExcuFun: func(model types.RowModel) interface{} {
+				return model.Value
+			},
+		},{
+			Head:     language.Get("route-sale_count"),
+			Field:    "sale_count",
+			TypeName: "bigint",
 			Default:  "",
 			Editable: false,
 			FormType: "text",
@@ -305,7 +305,7 @@ func GetRouteTable() (routeTable models.Table) {
 		},	}
 
 	routeTable.Form.Table = "route"
-	routeTable.Form.Title = "Route"
+	routeTable.Form.Title = language.Get("form-route")
 	routeTable.Form.Description = "Route"
 
 	routeTable.ConnectionDriver = "mysql"

@@ -2,12 +2,12 @@ package tour_route
 
 import (
 	"github.com/chenhg5/go-admin/context"
-	"github.com/chenhg5/go-admin/plugins/admin/models"
-	"github.com/chenhg5/go-admin/plugins/admin/controller"
-	routeModel "tzx-admin/plugins/tour-route/models"
+	"github.com/chenhg5/go-admin/modules/config"
 	"github.com/chenhg5/go-admin/plugins"
-		"github.com/chenhg5/go-admin/modules/config"
-	)
+	"github.com/chenhg5/go-admin/plugins/admin/controller"
+	"github.com/chenhg5/go-admin/plugins/admin/models"
+	routeModel "tzx-admin/plugins/tour-route/models"
+)
 
 type TourRoute struct {
 	app      *context.App
@@ -35,9 +35,12 @@ func (tourRoute *TourRoute) InitPlugin() {
 	App.app = InitRouter("/" + cfg.PREFIX)
 
 	models.SetGenerators(map[string]models.TableGenerator{
-		"tour-route": routeModel.GetRouteTable,
+		"guide": routeModel.GetGuideTable,
+		"home_page": routeModel.GetHome_pageTable,
 		"poi": routeModel.GetPoiTable,
-		"routepoi": routeModel.GetRoutepoiTable,
+		"route": routeModel.GetRouteTable,
+		"route_distance": routeModel.GetRoute_distanceTable,
+		"route_poi": routeModel.GetRoute_poiTable,
 		"task": routeModel.GetTaskTable,
 	})
 	models.InitTableList()
